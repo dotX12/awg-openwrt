@@ -1,6 +1,6 @@
 name: Create Release on Tag
-# on: [workflow_dispatch]
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*.*.*"
